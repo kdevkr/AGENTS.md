@@ -41,6 +41,12 @@ Git 커밋 메시지는 반드시 [Conventional Commits v1.0.0](https://www.conv
 *   **로컬 커밋 병합 (Amend):** 원격 저장소에 푸시(Push)되지 않은 로컬 커밋들은 히스토리가 파편화되지 않도록 `git commit --amend` 등을 사용하여 하나의 커밋으로 병합해 깔끔한 상태를 유지합니다.
 *   **Git Pull 시 Rebase 수행:** 원격 저장소의 최신 변경 사항을 가져올 때 불필요한 머지 커밋(Merge commit)이 생성되어 히스토리가 지저분해지지 않도록, 기본적으로 `git pull --rebase`를 사용하여 선형 히스토리를 유지합니다.
 
+### 5. 코드 스타일 및 린트(Linter) 적용
+*   **코드 스타일 검증:** 프로젝트 코드를 수정하거나 추가한 후에는 반드시 해당 프로젝트에서 제공하는 린트 도구를 실행하여 코드 스타일 규칙을 준수하고 오류가 없는지 확인합니다.
+    *   **Java:** Checkstyle, PMD 등
+    *   **Python:** Flake8, Black, Ruff, Pylint 등
+    *   **JavaScript / TypeScript:** ESLint, Prettier 등
+
 ---
 
 ## 자바 (Java) 코딩 규칙
