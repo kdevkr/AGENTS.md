@@ -47,6 +47,12 @@ Git 커밋 메시지는 반드시 [Conventional Commits v1.0.0](https://www.conv
     *   **Python:** Flake8, Black, Ruff, Pylint 등
     *   **JavaScript / TypeScript:** ESLint, Prettier 등
 
+### 6. 패키지 매니저 구성 지침
+*   **표준 패키지 매니저 사용:** 프로젝트를 새로 구성하거나 의존성을 관리할 때, 다음의 언어별 표준 패키지 매니저를 준수하여 사용합니다.
+    *   **Java:** Gradle
+    *   **Python:** UV
+    *   **JavaScript / TypeScript:** PNPM
+
 ---
 
 ## 자바 (Java) 코딩 규칙
